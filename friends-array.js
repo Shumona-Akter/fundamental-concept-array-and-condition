@@ -47,4 +47,17 @@ var totalFriend = collageFriends.concat(schoolFriend); console.log(totalFriend);
 var citFriend = ["tanvir", "akhi", "shuvo"];
 var totalFriend = collageFriends.concat(schoolFriend, citFriend);
 console.log(totalFriend);
-console.log(totalFriend.toString())
+console.log(totalFriend.toString());
+
+collageFriends.splice(2, 2, "Akhi", "Tanvir");
+console.log(collageFriends);
+
+collageFriends.splice(0,0,"khusi", "jannat");
+console.log(collageFriends);
+
+collageFriends.slice(1);
+console.log(collageFriends);
+
+const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+const citrus = fruits.slice(1);
+console.log(fruits)
